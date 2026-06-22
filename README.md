@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on003690-blue)](https://doi.org/10.82901/nemar.on003690)
+
 Age-related differences in EEG, ECG and pupilography during auditory cued reaction time tasks
 
 In this study, we acquired the electroencephalogram (EEG), pupilogram and electrocardiogram (ECG) while a group of young (N = 36) and a group of older (N = 39) adults were engaged in auditory cued reaction time tasks (active tasks) or passively listening to the auditory stimulus used as temporal cue, presented with the same frequency as in the active tasks (passive task - 4 minutes acquired at the beginning of the session).
