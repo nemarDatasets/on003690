@@ -1,33 +1,112 @@
 {
   "version": "2.0",
-  "dataset_id": "on003690",
-  "source": "openneuro",
-  "source_id": "ds003690",
+  "pipeline_stage": "validated",
   "title": "EEG, ECG and pupil data from young and older adults: rest and auditory cued reaction time tasks",
-  "authors": {
-    "Maria J. Ribeiro": {},
-    "Miguel Castelo-Branco": {}
-  },
   "license": "CC0",
   "dataset_type": "raw",
+  "authors": {
+    "Maria J. Ribeiro": {
+      "orcid": "0000-0001-6422-3279"
+    },
+    "Miguel Castelo-Branco": {}
+  },
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds003690.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on003690",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on003690",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1016/j.neurobiolaging.2018.09.028",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1016/j.neuroimage.2019.06.004",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
     }
-  ],
-  "pipeline_stage": "seeded",
-  "bids_version": "v1.2.1",
-  "recording_modality": [
-    "eeg"
-  ],
-  "datatypes": [
-    "eeg"
   ],
   "funding_references": [
     {
-      "funder_name": "This work was funded by Fundação para a Ciência e a Tecnologia (Grants: SFRH/BPD/102188/2014 and UID/NEU/04539/2013-COMPETE, POCI-01-0145-FEDER-00 7440, PACeMEDPERSYST, POCI-01-0145-FEDER-30852, POCI-01-0145-FEDER-016428, BIGDATIMAGE, CENTRO-01-0145-FEDER-000016, financed by Centro 2020 FEDER, COMPETE)."
+      "funder_name": "Fundação para a Ciência e a Tecnologia",
+      "award_number": "SFRH/BPD/102188/2014"
+    },
+    {
+      "funder_name": "Fundação para a Ciência e a Tecnologia",
+      "award_number": "UID/NEU/04539/2013"
+    },
+    {
+      "funder_name": "Fundação para a Ciência e a Tecnologia",
+      "award_number": "POCI-01-0145-FEDER-007440"
+    },
+    {
+      "funder_name": "Fundação para a Ciência e a Tecnologia",
+      "award_number": "POCI-01-0145-FEDER-30852"
+    },
+    {
+      "funder_name": "Fundação para a Ciência e a Tecnologia",
+      "award_number": "POCI-01-0145-FEDER-016428"
+    },
+    {
+      "funder_name": "Fundação para a Ciência e a Tecnologia",
+      "award_number": "CENTRO-01-0145-FEDER-000016"
     }
-  ]
+  ],
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".gitattributes",
+    ".json",
+    ".m",
+    ".md",
+    ".set",
+    ".tsv"
+  ],
+  "description": "This dataset comprises synchronized electroencephalography (EEG), electrocardiography (ECG), and pupillometry recordings from 75 participants (36 young, 39 older adults) during auditory cued reaction time tasks and passive listening conditions. Participants performed a simple reaction time task and a go/no-go task, with EEG acquired at 500 Hz using a 64-channel system, ECG recorded bipolarly from chest electrodes, and pupil data sampled at 240 Hz. The study investigates age-related differences in neural, cardiac, and pupillary responses during perceptual decision-making.",
+  "methods_description": "EEG was recorded using a 64-channel Neuroscan system with electrodes placed according to the International 10-20 standard (reference: CPz-Cz, ground: FPz-Fz) at 500 Hz sampling rate. Vertical and horizontal electrooculograms monitored eye movements and blinks. Bipolar ECG electrodes were placed on the chest. Pupil data was acquired using an iView X Hi-Speed 1250 system (SMI) at 240 Hz. Electrode positions were digitized using a 3D Fastrak system. Auditory stimuli (pure tones: cue 1500 Hz, go 1700 Hz, no-go 1300 Hz, feedback 1000 Hz) were presented at ~67 dB(A) with 250 ms duration. Participants completed two 8-minute runs each of simple reaction time (100 cue-target, 20 cue-only trials) and go/no-go tasks (80 go, 20 no-go, 20 cue-only trials), plus a 4-minute passive listening condition.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "Electrocardiography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004562"
+    },
+    {
+      "term": "pupillometry"
+    },
+    {
+      "term": "reaction time"
+    },
+    {
+      "term": "aging"
+    },
+    {
+      "term": "Event-Related Potentials, P300",
+      "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D018913"
+    },
+    {
+      "term": "go/no-go task"
+    }
+  ],
+  "source_hash": "d073145a6b420c23b2200fbb6fe59d8c397f1393d2cc6e5b8e0248d8697e6eee"
 }
